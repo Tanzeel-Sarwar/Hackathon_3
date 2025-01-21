@@ -1,0 +1,9 @@
+,,,,,,,,
+Test Case ID,Test Case Description:,Test Steps,Expected Result,Actual Result,Status,Severity Level,Assigned To,Remarks
+TC001,"Verify product display (name, price, image).",1. Go to product page.                                          2. Check product details.,Products displayed correctly,Products displayed correctly.,Pass,Low,-,No issues.
+TC002,Verify product details page functionality.,1. Click on product.                                                2. Check details page.,Full details should load.,Details loaded correctly.,Pass,Medium,-,Working well.
+TC003,"Check ""Add to Cart"" functionality.",1. Add product to cart.                                          2. Verify cart item.,Product added to cart.,Product added correctly.,Pass,Low,-,Works fine.
+TC004,Verify checkout process.,1. Add items.                                                           2. Proceed to checkout.                                      3. Complete purchase.,Successful checkout.,Checkout successful.,Pass,High,-,No issues.
+TC005,Verify data fetching.,1. Refresh product page.                                    2. Check data load.,Data loads correctly.,Data loaded.,Pass,Medium,-,Works well.
+TC006,Check API error handling.,1. Simulate error.                                                  2. Verify error handling.,Proper error message.,Error message displayed.,Pass,High,-,Handled well.
+TC007,Verify mobile responsiveness.,1. Open site on mobile.                                      2. Check layout.,Site responsive on mobile.,Site is responsive.,Pass,Low,-,No issues.
